@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 150px 800px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+
+/*------------------------------- header-------------------------------- */
+.header{
+    grid-column: 2/-1;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    padding: 10px;
+}
+
+.top-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 20px;
+    margin-left: 30px   ;
+}
+
+.top-header .bell{
+    margin-left: auto;
+}
+
+.top-header input{
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    background: rgb(226, 232, 240);
+    height: 30px;
+    width: 60%;
+    padding-left:10px ;
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;   
+}
+
+.top-header .name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.botton-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.welcome-container{
+    display:flex;
+   justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.welcome-container .profile-img{
+    width: 70px;
+    height: 70px;
+}
+
+.button-header-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content:end;
+    margin-right: 30px;
+}
+
+.button-header-container>button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(25, 146, 212);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* ------------------------------------- sidebar ----------------------------------*/
+
+.sidebar{
+    grid-row: 1/-1;
+    background-color: rgb(25, 146, 212);
+    display: grid;
+    grid-template-rows: 100px 300px 200px;
+}
+
+.side-title{
+    display: flex;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.navigation>ul,.options>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*--------------------------------- main---------------------------------- */
+
+.main-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
+
+
+
+
